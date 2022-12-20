@@ -415,6 +415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverText: {fileID: 588343611}
+  scoreText: {fileID: 0}
   gameOver: 0
   scrollSpeed: -1.5
 --- !u!4 &394307444
@@ -833,7 +834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967592204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1375,7 +1376,7 @@ GameObject:
   - component: {fileID: 2127828092}
   - component: {fileID: 2127828091}
   m_Layer: 5
-  m_Name: Score Text
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
